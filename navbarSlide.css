@@ -1,0 +1,10 @@
+.horizontal-navbar-item {
+    margin: 0;
+    padding: 0;
+    background-size: 200%;
+}
+
+.horizontal-navbar-item:hover {
+    cursor: pointer;
+    background-position: 100%;
+}
