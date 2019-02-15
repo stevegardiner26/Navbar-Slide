@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b013f80c-b31c-4f42-9c49-4281ad57d362" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbarSlide.js" beforeDir="false" afterPath="$PROJECT_DIR$/navbar_slide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar_slide.js" beforeDir="false" afterPath="$PROJECT_DIR$/navbar_slide.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/navbar_slide.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="368">
+              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -77,6 +75,7 @@
         <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/navbarSlide.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/navbar_slide.js" />
       </list>
     </option>
   </component>
@@ -134,12 +133,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537391738044</updated>
       <workItem from="1537391739735" duration="4002000" />
-      <workItem from="1550182244366" duration="9192000" />
+      <workItem from="1550182244366" duration="10416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13194000" />
+    <option name="totallyTimeSpent" value="14418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -196,8 +195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/navbar_slide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="368">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
