@@ -1,13 +1,10 @@
 //NavBar Slide
-
-//Incorporate NavDropDowns
 //Add the Ability for Multiple NavMenus with JSON object
 
 var solidColor = '#333';
 var hoverColor = 'yellow';
 var slideTime = .2;
 var horizontal_navigation  = document.querySelectorAll('.horizontal-navbar-item');
-
 var vertical_navigation  = document.querySelectorAll('.vertical-navbar-item');
 
 for(var i = 0; i < horizontal_navigation.length; i++){
