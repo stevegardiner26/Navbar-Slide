@@ -1,5 +1,4 @@
 //NavBar Slide
-//Add the Ability for Multiple NavMenus with JSON object
 
 //Config
 var solidColor = '#333';
