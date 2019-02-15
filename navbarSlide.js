@@ -1,8 +1,8 @@
 //NavBar Slide
 
 //Incorporate NavDropDowns
-//Incorporate Vertical NavBar
 //Add the Ability for Multiple NavMenus with JSON object
+
 var solidColor = '#333';
 var hoverColor = 'yellow';
 var slideTime = .2;
@@ -55,44 +55,44 @@ for(var i = 0; i < horizontal_navigation.length; i++){
 //For Vertical Navbars
 for(var v = 0; v < vertical_navigation.length; v++){
     vertical_navigation[v].style.margin = "0 !important";
-    vertical_navigation[v].style.backgroundSize = "200%";
+    vertical_navigation[v].style.backgroundSize = "100% 200%";
     vertical_navigation[v].style.backgroundPosition = "center 0% !important";
     vertical_navigation[v].style.cursor = "pointer";
     vertical_navigation[v].style.backgroundImage = 'linear-gradient(to bottom, ' + solidColor + ' 50%, ' + hoverColor + ' 50%)';
     vertical_navigation[v].style.transition = "background-position " + slideTime + 's';
-    let position = 0;
+    let position2 = 0;
     vertical_navigation[v].onmouseenter = function(mouse) {
         var edge = closestEdge(mouse, this);
-        console.log('enter from ' + edge);
+        console.log('enter from ' + edge + ' with: ' + position2);
         if (edge === 'left'){
-            position -= 100;
-            this.style.backgroundPosition = 'center ' + position + '% !important';
+            position2 += 100;
+            this.style.backgroundPosition = '0 ' + position2 + '%';
         } else if (edge === 'right') {
-            position -= 100;
-            this.style.backgroundPosition = 'center ' + position + '% !important';
+            position2 += 100;
+            this.style.backgroundPosition = '0 ' + position2 + '%';
         } else if (edge === 'bottom') {
-            position -= 100;
-            this.style.backgroundPosition = 'center ' + position + '% !important';
+            position2 += 100;
+            this.style.backgroundPosition = '0 ' + position2 + '%';
         } else if (edge === 'top') {
-            position += 100;
-            this.style.backgroundPosition = 'center ' + position + '% !important';
+            position2 -= 100;
+            this.style.backgroundPosition = '0 ' + position2 + '%';
         }
     };
     vertical_navigation[v].onmouseleave = function(mouse) {
         var edge2 = closestEdge(mouse, this);
-        console.log('left from ' + edge2);
+        console.log('left from ' + edge2 + ' with: ' + position2);
         if (edge2 === 'left'){
-            position += 100;
-            this.style.backgroundPosition = position + '%';
+            position2 -= 100;
+            this.style.backgroundPosition = '0 ' + position2 + '%';
         } else if (edge2 === 'right') {
-            position -= 100;
-            this.style.backgroundPosition = position + '%';
+            position2 -= 100;
+            this.style.backgroundPosition = '0 ' + position2 + '%';
         } else if (edge2 === 'bottom') {
-            position -= 100;
-            this.style.backgroundPosition = position + '%';
+            position2 -= 100;
+            this.style.backgroundPosition = '0 ' + position2 + '%';
         } else if (edge2 === 'top') {
-            position -= 100;
-            this.style.backgroundPosition = position + '%';
+            position2 += 100;
+            this.style.backgroundPosition = '0 ' + position2 + '%';
         }
     };
 }
